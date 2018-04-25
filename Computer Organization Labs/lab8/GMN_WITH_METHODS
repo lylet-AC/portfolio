@@ -1,0 +1,225 @@
+#Make computer guess my number
+
+.data
+	
+	str1: .asciiz "\nPlease think of an integer between 1 and 50 hit enter when ready."
+	str2: .asciiz "\nThe computer guesses: "
+	str3: .asciiz "\nWas the guess high or low or just right? (1=high | 2=low | 3=correct): "
+	str4: .asciiz "\nYour number was: "
+	str5: .asciiz "\nThe computer took this many tries to guess: "
+	str6: .asciiz "\nWould you like to play again (1=yes|2=no): "
+
+.text
+
+TOP:
+
+	#$t0 is the maximum guess
+	#$t1 is the minimum guess
+	#$t2 is the user input for the number
+	#guess value is $t3 (set to default the guess at 25 ((max+min)/2)
+	
+	#Starts off the guess variables at these values
+	li $t0, 50
+	li $t1, 0
+	li $t3, 25
+
+	#prompt user with opening messages
+	jal welcome_Messages
+	
+	#incrememnt tries counter
+	addi $t4, $t4, 1
+			
+	# "the computer guesses: __"
+	la $a0, str2
+	li $v0, 4
+	syscall
+	
+	#prints number as well
+	move $a0, $t3
+	li $v0, 1
+	syscall
+
+MID:	
+
+	jal get_User_Input #saves user input in $v1
+	move $t2, $v1 #moves saved input to $t2
+	
+	beq $t2, 3, success #if user input=3 branch to success	
+	
+	move $a1, $t2 #move $t1 into $a1 to use as a parameter
+	jal compute_Guess #uses $a1 as a parameter from $v1
+	
+	#incrememnt tries counter
+	addi $t4, $t4, 1
+	j MID #jump to top to keep getting input until success is met
+	
+success:	
+	jal success_Message
+	
+	jal play_again #v1 contains user input
+	beq $v1, 1, TOP #if user input=1 play another round
+	
+	
+	### PROCEDURES ###
+	
+	
+	
+welcome_Messages:
+	# prologue
+	subi $sp, $sp, 12
+	sw $ra, 0($sp)
+	sw $v0, 4($sp)
+	sw $a0, 8($sp)
+	
+	# procedure body
+	#prompts the user to think of a guess
+	la $a0, str1
+	li $v0, 4
+	syscall
+	
+	#asks for meaningless input
+	li $v0, 8
+	syscall
+    	
+    	# epilogue
+    	lw $a0, 8($sp)
+    	lw $v0, 4($sp)
+    	lw $ra, 0($sp)
+    	addi $sp, $sp, 12
+    	
+    	# return
+    	jr $ra
+    	
+get_User_Input
+	# prologue
+	subi $sp, $sp, 12
+	sw $ra, 0($sp)
+	sw $v0, 4($sp)
+	sw $a0, 8($sp)
+	
+	# procedure body
+	# "was it high/low/correct"
+	la $a0, str3
+	li $v0, 4
+	syscall
+	
+	#takes in user input ### 1=guess to high ### 2=guess to low ### 3=correct
+	li $v0, 5
+	syscall
+	#saves user input in $t2
+	move $v1, $v0
+	
+    	# epilogue
+    	lw $a0, 8($sp)
+    	lw $v0, 4($sp)
+    	lw $ra, 0($sp)
+    	addi $sp, $sp, 12
+    	
+    	# return
+    	jr $ra
+	
+    	    	
+compute_Guess:
+	# prologue
+	subi $sp, $sp, 12
+	sw $ra, 0($sp)
+	sw $v0, 4($sp)
+	sw $a0, 8($sp)
+	
+	# procedure body
+	#if user data is 1 branch to tooHIGH:
+	beq $a1, 1, tooHIGH
+	
+	#if user data is 2 branch to tooLOW:
+	beq $a1, 2, tooLOW
+	
+tooHIGH:
+	#set min = lastguess ($t3), then make lastguess = ((max+min)/2)
+	move $t0, $t3 #min = lastguess
+	add $t6, $t0, $t1 #$t6 = min+max
+	div $t3, $t6, 2 #guess = min((max+min)/2)
+	j epilogue
+
+tooLOW:
+	#set max = lastguess ($t3), then make lastguess = ((max+min)/2)
+	move $t1, $t3 #min = lastguess
+	add $t6, $t0, $t1 #$t6 = min+max
+	div $t3, $t6, 2 #guess = min((max+min)/2)
+	j epilogue
+	
+epilogue:	
+    	# epilogue
+    	lw $a0, 8($sp)
+    	lw $v0, 4($sp)
+    	lw $ra, 0($sp)
+    	addi $sp, $sp, 12
+    	
+    	# return
+    	jr $ra	
+	
+success_Message:
+	# prologue
+	subi $sp, $sp, 20
+	sw $ra, 0($sp)
+	sw $v0, 4($sp)
+	sw $a0, 8($sp)
+	sw $t3, 12($sp)
+	sw $t4, 16($sp)
+	
+	# procedure body
+	# "your number was: "
+	la $a0, str4
+	li $v0, 4
+	syscall
+	#prints number as well
+	move $a0, $t3
+	li $v0, 1
+	syscall			
+	# "the number of guesses was: "
+	la $a0, str5
+	li $v0, 4
+	syscall
+	#prints number as well
+	move $a0, $t4
+	li $v0, 1
+	syscall
+	
+    	# epilogue
+    	sw $t4, 16($sp)
+	sw $t3, 12($sp)
+    	lw $a0, 8($sp)
+    	lw $v0, 4($sp)
+    	lw $ra, 0($sp)
+    	addi $sp, $sp, 20
+    	
+    	# return
+    	jr $ra
+    	
+play_again:
+	# prologue
+	subi $sp, $sp, 20
+	sw $ra, 0($sp)
+	sw $v0, 4($sp)
+	sw $a0, 8($sp)
+
+	# procedure body
+	# "would you like to play again?"
+	la $a0, str6
+	li $v0, 4
+	syscall		
+	#saves user input
+	li $v0, 5
+	syscall
+	
+	move $v1, $v0 
+	
+    	# epilogue
+    	sw $t4, 16($sp)
+	sw $t3, 12($sp)
+    	lw $a0, 8($sp)
+    	lw $v0, 4($sp)
+    	lw $ra, 0($sp)
+    	addi $sp, $sp, 20
+    	
+    	# return
+    	jr $ra
