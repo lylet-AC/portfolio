@@ -1,0 +1,2 @@
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of ValhallaContent\obj\x86\Release\Halls of ValhallaContent.contentprojResolveAssemblyReference.cache
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of ValhallaContent\obj\x86\Release\Halls of ValhallaContent.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,55 @@
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Halls of Valhalla.exe
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Halls of Valhalla.pdb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Halls of Valhalla.csprojResolveAssemblyReference.cache
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Halls of Valhalla.exe
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Halls of Valhalla.pdb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\none.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\SpriteFont1.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerA.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerD.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerS.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerW.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\mainroom.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\mainroom.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\none.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerA.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerD.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerS.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\PlayerW.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Halls of Valhalla.exe
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Halls of Valhalla.pdb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Halls of Valhalla.csprojResolveAssemblyReference.cache
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Halls of Valhalla.exe
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Debug\Halls of Valhalla.pdb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\SpriteFont2.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\titlescreen.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\door.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\nothing.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\enter.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\enter.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\titlescreen.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\door.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\nothing.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\Tutorial.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\Tutorial.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\Tutorial Flipped.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\Tutorial Flipped.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\deathscreen.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\starter weapon.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\deathscreen.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\starter weapon.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\usageslots.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\weapdown.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\usageslots.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\weapdown.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\starter armor.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\armordown.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\starter armor.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\armordown.xnb
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\lootbag.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\lootbag.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Debug\Content\shot.xnb

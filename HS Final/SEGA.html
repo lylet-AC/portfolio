@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd XHTML 1.0 TRANSITIONAL//en"
+"http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title>SEGA: 8-bit Fire</title>
+
+<link rel="stylesheet" type="text/css" href="salepagestyle.css">
+<script language="javascript">
+
+var sum=0;
+
+function Calculate() {
+sum = 0;
+var itemnum, check;
+for (i=0; i<11; i++) {
+	itemnum = 'item'+i;
+	check = document.getElementById(itemnum);
+	if (check.checked==true) {sum += Number(check.value); }
+}
+
+document.getElementById('totalcost').innerHTML = ("$")+sum.toFixed(2);
+}
+function setZero() {
+sum = 0;
+document.getElementById('totalcost').innerHTML = ("$0.00");
+}
+
+</script>
+</head>
+<body>
+
+<!-- Menu Bar Start -->
+<div class="menu-wrap" name="#top">
+<nav class="menu">
+<ul class="clearfix">
+<li><img src="8bit.gif" height="32" width="32"hspace="15"></li>
+<li><img src="logo.png" hspace="10"></li>
+<li><a href="home.html">Home</a></li>
+<li><a href="#">Games For:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#games">Atari</a></li>
+<li><a href="nintendo.html#games">Nintendo</a></li>
+<li><a href="SEGA.html#games">SEGA</a></li>
+<li><a href="PCDOS.html#games">DOS Games</a></li>
+</ul>
+</li>
+<li><a href="#">Consoles:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#consoles">Atari</a></li>
+<li><a href="nintendo.html#consoles">Nintendo</a></li>
+<li><a href="SEGA.html#consoles">SEGA</a></li>
+<li><a href="PCDOS.html#consoles">PC Machines</a></li>
+<li><a href="Arcade Machinces.html">Arcade Style</a></li>
+</ul>
+</li>
+<li><a href="#">Accessories:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#accessories">Atari</a></li>
+<li><a href="nintendo.html#accessories">Nintendo</a></li>
+<li><a href="SEGA.html#accessories">SEGA</a></li>
+<li><a href="PCDOS.html#accessories">PC</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<!-- End Menu Bar -->
+
+<div id="pricebox"><p>Your total:</p><p style="color:green;" id="totalcost">$0.00</p></div>
+
+
+<form method="post" action="mailto:tyspy197@yahoo.com">
+
+<div class="toplogo">
+<center>
+<img src="segalogo.png" width="450" height="175">
+</center>
+</div>
+
+
+<h2 id="games">Games</h2>
+<table border="0">
+<tr>
+<td>
+<img src="castlevaniagen.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Castlevania</h3>
+<p class="price">$9.00 <input type="checkbox" id="item0" name="Castlevania" value="9.00" onClick="Calculate()"></p>
+<p>An epic RPG game.</p>
+<p>Console: Genesis</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="jurassicgen.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Jurassic Park</h3>
+<p class="price">$5.00 <input type="checkbox" id="item1" name="Jurassic_Park" value="5.00" onClick="Calculate()"></p>
+<p>Escape from a hell-hole park full of dinosaurs.</p>
+<p>Console: Genesis</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="mortalgen.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Mortal Kombat</h3>
+<p class="price">$6.00 <input type="checkbox" id="item2" name="Mortal_Kombat" value="6.00" onClick="Calculate()"></p>
+<p>Two Player fighting action! Good buy! </p>
+<p>Console: Genesis</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="sonicgen.jpeg" height="180" width="125">
+</td>
+<td>
+<h3>Sonic 3</h3>
+<p class="price">$10.99 <input type="checkbox" id="item3" name="Sonic_3" value="10.99" onClick="Calculate()"></p>
+<p>You know this classic. No description needed.</p>
+<p>Console: Genesis</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="psychofox.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Psycho Fox</h3>
+<p class="price">$2.00 <input type="checkbox" id="item4" name="Psycho_Fox" value="2.00" onClick="Calculate()"></p>
+<p>N/A</p>
+<p>Console: Master System 3</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="sonic.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Sonic</h3>
+<p class="price">$10.99 <input type="checkbox" id="item5" name="Sonic" value="10.99" onClick="Calculate()"></p>
+<p>The ultimate SEGA classic!</p>
+<p>Console: Master System 3</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="terminator.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Terminator</h3>
+<p class="price">$4.00 <input type="checkbox" id="item6" name="Terminator" value="4.00" onClick="Calculate()"></p>
+<p>Enjoy this game based on the movie! Good Buy!</p>
+<p>Console: Master System 3</p>
+</td>
+</tr>
+</table>
+
+
+<h2 id="consoles">Consoles</h2>
+<table border="0">
+<tr>
+<td>
+<img src="genesis.jpg" height="200" width="200">
+</td>
+<td>
+<h3>SEGA Genesis</h3>
+<p class="price">$30.00 <input type="checkbox" id="item7" name="Genesis" value="30.00" onClick="Calculate()"></p>
+<p>Includes one controller.</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="master system 3.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Master System 3</h3>
+<p class="price">$40.00 <input type="checkbox" id="item8" name="Master_System_3" value="40.00" onClick="Calculate()"></p>
+<p>Includes one controller.</p>
+</td>
+</tr>
+
+</table>
+
+
+<h2 id="accessories">Accessories</h2>
+<table border="0">
+<tr>
+<td>
+<img src="gencontroller.jpg" height="200" width="200">
+</td>
+<td>
+<h3>SEGA Genesis Controller</h3>
+<p class="price">$5.00 <input type="checkbox" id="item9" name="Genesis_Controller" value="5.00" onClick="Calculate()"></p>
+<p></p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="mastercontroller.jpg" height="200" width="200">
+</td>
+<td>
+<h3>Master System 3 Controller</h3>
+<p class="price">$5.00 <input type="checkbox" id="item10" name="Master_System_3_Controller" value="5.00" onClick="Calculate()"></p>
+<p></p>
+</td>
+</tr>
+</table>
+
+<br/>
+<center>
+<input type="submit" value="I'm ready to buy" class="button"> <input type="reset" value="Reset Page" class="button" onClick="setZero()">
+</center>
+</form>
+
+<div class="linkbar">
+<p><a href="home.html">Home</a> | <a href="#top">Back to Top</a> | <a href="order.html">Special Orders</a></p>
+</div>
+
+</body>
+</html>

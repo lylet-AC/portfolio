@@ -1,0 +1,45 @@
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\mainroom.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\none.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerA.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerD.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerS.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerW.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\SpriteFont1.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Halls of Valhalla.exe
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Halls of Valhalla.pdb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Halls of Valhalla.csprojResolveAssemblyReference.cache
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Halls of Valhalla.exe
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Halls of Valhalla.pdb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\SpriteFont2.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Halls of Valhalla.csprojResolveAssemblyReference.cache
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Halls of Valhalla.exe
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\mainroom.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\none.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerA.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerD.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerS.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\PlayerW.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\titlescreen.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\door.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\nothing.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\SpriteFont1.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\SpriteFont2.xnb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Halls of Valhalla.exe
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Halls of Valhalla.pdb
+G:\Sandisk\School\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\obj\x86\Release\Halls of Valhalla.pdb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\titlescreen.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\door.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\nothing.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\enter.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\Tutorial.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\Tutorial Flipped.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\deathscreen.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\starter weapon.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\usageslots.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\weapdown.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\starter armor.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\armordown.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\lootbag.xnb
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of Valhalla\bin\x86\Release\Content\shot.xnb

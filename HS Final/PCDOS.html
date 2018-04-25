@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd XHTML 1.0 TRANSITIONAL//en"
+"http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title>: 8-bit Fire</title>
+
+<link rel="stylesheet" type="text/css" href="salepagestyle.css">
+<script language="javascript">
+
+var sum=0;
+
+function Calculate() {
+sum = 0;
+var itemnum, check;
+for (i=0; i<7; i++) {
+	itemnum = 'item'+i;
+	check = document.getElementById(itemnum);
+	if (check.checked==true) {sum += Number(check.value); }
+}
+
+document.getElementById('totalcost').innerHTML = ("$")+sum.toFixed(2);
+}
+function setZero() {
+sum = 0;
+document.getElementById('totalcost').innerHTML = ("$0.00");
+}
+
+</script>
+
+</head>
+<body>
+
+<!-- Menu Bar Start -->
+<div class="menu-wrap" name="#top">
+<nav class="menu">
+<ul class="clearfix">
+<li><img src="8bit.gif" height="32" width="32"hspace="15"></li>
+<li><img src="logo.png" hspace="10"></li>
+<li><a href="home.html">Home</a></li>
+<li><a href="#">Games For:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#games">Atari</a></li>
+<li><a href="nintendo.html#games">Nintendo</a></li>
+<li><a href="SEGA.html#games">SEGA</a></li>
+<li><a href="PCDOS.html#games">DOS Games</a></li>
+</ul>
+</li>
+<li><a href="#">Consoles:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#consoles">Atari</a></li>
+<li><a href="nintendo.html#consoles">Nintendo</a></li>
+<li><a href="SEGA.html#consoles">SEGA</a></li>
+<li><a href="PCDOS.html#consoles">PC Machines</a></li>
+<li><a href="Arcade Machinces.html">Arcade Style</a></li>
+</ul>
+</li>
+<li><a href="#">Accessories:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#accessories">Atari</a></li>
+<li><a href="nintendo.html#accessories">Nintendo</a></li>
+<li><a href="SEGA.html#accessories">SEGA</a></li>
+<li><a href="PCDOS.html#accessories">PC</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<!-- End Menu Bar -->
+
+<div id="pricebox"><p>Your total:</p><p style="color:green;" id="totalcost">$0.00</p></div>
+
+
+<form method="post" action="mailto:tyspy197@yahoo.com">
+
+<div class="toplogo">
+<center>
+<img src="msdoslogo.png" width="322" height="330">
+</center>
+</div>
+
+
+<h2 id="games">Games</h2>
+<table border="0">
+<tr>
+<td>
+<img src="arena.jpg" height="180" width="125">
+</td>
+<td>
+<h3>The Elder Scrolls: Arena</h3>
+<p class="price">$4.99 <input type="checkbox" id="item0" name="Arena" value="4.99" onClick="Calculate()"></p>
+<p>The first of a long line of legendary Bethesda games.</p>
+<p>Console: PC</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="doom.png" height="180" width="125">
+</td>
+<td>
+<h3>DOOM</h3>
+<p class="price">$4.99 <input type="checkbox" id="item1" name="Doom" value="4.99" onClick="Calculate()"></p>
+<p>N/A</p>
+<p>Console: PC</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="megaman.jpg" height="180" width="125">
+</td>
+<td>
+<h3>MEGA MAN</h3>
+<p class="price">$4.99 <input type="checkbox" id="item2" name="Mega_Man" value="4.99" onClick="Calculate()"></p>
+<p>An epic Platformer! Good Buy!</p>
+<p></p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="persia.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Prince of Persia</h3>
+<p class="price">$4.99 <input type="checkbox" id="item3" name="Prince_of_Persia" value="4.99" onClick="Calculate()"></p>
+<p>Another classic platformer.</p>
+<p>Console: PC</p>
+</td>
+</tr>
+
+</table>
+
+
+<h2 id="consoles">Consoles</h2>
+<table border="0">
+<tr>
+<td>
+<img src="windows.jpg" height="200" width="180">
+</td>
+<td>
+<h3>Windows '95</h3>
+<p class="price">$10.99 <input type="checkbox" id="item4" name="Windows_95" value="10.99" onClick="Calculate()"></p>
+<p>Install Windows '95 to your PC to make it a DOS game machine!</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="whitebox.png" height="200" width="200">
+</td>
+<td>
+<h3>The WhiteBox PC</h3>
+<p class="price">$100.00 <input type="checkbox" id="item5" name="Whitebox_PC" value="100.00" onClick="Calculate()"></p>
+<p>A custom made, PC gaming monster.  DOS game compatible.</p>
+</td>
+</tr>
+
+</table>
+
+
+<h2 id="accessories">Accessories</h2>
+<table border="0">
+<tr>
+<td>
+<img src="retromouse.jpg" height="200" width="200">
+</td>
+<td>
+<h3>Retro Mouse and Keyboard Set</h3>
+<p class="price">$25.99 <input type="checkbox" id="item6" name="Retro_Mouse_and_Keys" value="25.99" onClick="Calculate()"></p>
+<p>Comes with a USB 2.0 mouse and keyboard.</p>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<center>
+<input type="submit" value="I'm ready to buy" class="button"> <input type="reset" value="Reset Page" class="button" onClick="setZero()">
+</center>
+</form>
+
+<div class="linkbar">
+<p><a href="home.html">Home</a> | <a href="#top">Back to Top</a> | <a href="order.html">Special Orders</a></p>
+</div>
+
+</body>
+</html>

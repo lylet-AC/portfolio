@@ -1,0 +1,2 @@
+\\mcdsa2\studentdata$\2015\127817\My Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of ValhallaContent\obj\x86\Debug\Halls of ValhallaContent.contentprojResolveAssemblyReference.cache
+C:\Users\Tyler L\Documents\Visual Studio 2010\Projects\Halls of Valhalla\Halls of Valhalla\Halls of ValhallaContent\obj\x86\Debug\Halls of ValhallaContent.contentprojResolveAssemblyReference.cache

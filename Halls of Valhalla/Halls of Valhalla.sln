@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halls of Valhalla", "Halls of Valhalla\Halls of Valhalla\Halls of Valhalla.csproj", "{703B2D1C-D236-4C96-8628-98F71D0F0DDF}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Halls of ValhallaContent", "Halls of Valhalla\Halls of ValhallaContent\Halls of ValhallaContent.contentproj", "{894C0BE2-EAFC-41E4-A4A9-A3D9FD78A8BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{703B2D1C-D236-4C96-8628-98F71D0F0DDF}.Debug|x86.ActiveCfg = Debug|x86
+		{703B2D1C-D236-4C96-8628-98F71D0F0DDF}.Debug|x86.Build.0 = Debug|x86
+		{703B2D1C-D236-4C96-8628-98F71D0F0DDF}.Release|x86.ActiveCfg = Release|x86
+		{703B2D1C-D236-4C96-8628-98F71D0F0DDF}.Release|x86.Build.0 = Release|x86
+		{894C0BE2-EAFC-41E4-A4A9-A3D9FD78A8BB}.Debug|x86.ActiveCfg = Debug|x86
+		{894C0BE2-EAFC-41E4-A4A9-A3D9FD78A8BB}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

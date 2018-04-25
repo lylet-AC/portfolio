@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd XHTML 1.0 TRANSITIONAL//en"
+"http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title>Atari: 8-bit Fire</title>
+
+<link rel="stylesheet" type="text/css" href="salepagestyle.css">
+<script language="javascript">
+
+var sum=0;
+
+function Calculate() {
+sum = 0;
+var itemnum, check;
+for (i=0; i<11; i++) {
+	itemnum = 'item'+i;
+	check = document.getElementById(itemnum);
+	if (check.checked==true) {sum += Number(check.value); }
+}
+
+document.getElementById('totalcost').innerHTML = ("$")+sum.toFixed(2);
+}
+function setZero() {
+sum = 0;
+document.getElementById('totalcost').innerHTML = ("$0.00");
+}
+
+</script>
+</head>
+<body>
+
+<!-- Menu Bar Start -->
+<div class="menu-wrap" name="#top">
+<nav class="menu">
+<ul class="clearfix">
+<li><img src="8bit.gif" height="32" width="32"hspace="15"></li>
+<li><img src="logo.png" hspace="10"></li>
+<li><a href="home.html">Home</a></li>
+<li><a href="#">Games For:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#games">Atari</a></li>
+<li><a href="nintendo.html#games">Nintendo</a></li>
+<li><a href="SEGA.html#games">SEGA</a></li>
+<li><a href="PCDOS.html#games">DOS Games</a></li>
+</ul>
+</li>
+<li><a href="#">Consoles:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#consoles">Atari</a></li>
+<li><a href="nintendo.html#consoles">Nintendo</a></li>
+<li><a href="SEGA.html#consoles">SEGA</a></li>
+<li><a href="PCDOS.html#consoles">PC Machines</a></li>
+<li><a href="Arcade Machinces.html">Arcade Style</a></li>
+</ul>
+</li>
+<li><a href="#">Accessories:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#accessories">Atari</a></li>
+<li><a href="nintendo.html#accessories">Nintendo</a></li>
+<li><a href="SEGA.html#accessories">SEGA</a></li>
+<li><a href="PCDOS.html#accessories">PC</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<!-- End Menu Bar -->
+
+<div id="pricebox"><p>Your total:</p><p style="color:green;" id="totalcost">$0.00</p></div>
+
+<form method="post" action="mailto:tyspy197@yahoo.com">
+
+<div class="toplogo">
+<center>
+<img src="atarilogo.png" width="250" height="250">
+</center>
+</div>
+
+<h2 id="games">Games</h2>
+<table border="0">
+<tr>
+<td>
+<img src="asteroids.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Asteroids</h3>
+<p class="price">$7.99 <input type="checkbox" id="item0" name="Asteroids" value="7.99" onClick="Calculate()"></p>
+<p>Shoot and destroy asteroids in this classic game!</p>
+<p>Console: Atari 2600</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="breakout.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Super Breakout</h3>
+<p class="price">$5.99 <input type="checkbox" id="item1" name="Super_Breakout" value="5.99" onClick="Calculate()"></p>
+<p>Destruct walls with a paddle and a ball, but don't let the ball miss the paddle or the bricks will come towards you!</p>
+<p>Console: Atari 2600</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="defender.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Defender</h3>
+<p class="price">$6.99 <input type="checkbox" id="item2" name="Defender" value="6.99" onClick="Calculate()"></p>
+<p>Fight against waves of aliens while protecting your fellow astronauts.</p>
+<p>Console: Atari 2600</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="flagcapt.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Flag Capture</h3>
+<p class="price">$4.99 <input type="checkbox" id="item3" name="Flag_Capture" value="4.99" onClick="Calculate()"></p>
+<p>One or two players must use clues to find which tile a flag is hidden under.</p>
+<p>Console: Atari 2600</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="pitfall.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Pitfall</h3>
+<p class="price">$7.99 <input type="checkbox" id="item4" name="Pitfall" value="7.99" onClick="Calculate()"></p>
+<p>Help Pitfall Harry discover 32 treasures in a 20 minute time period in this retro platformer!</p>
+<p>Console: Atari 2600</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="revenge.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Yar's Revenge</h3>
+<p class="price">$7.99 <input type="checkbox" id="item5" name="Yar's_Revenge" value="7.99" onClick="Calculate()"></p>
+<p>Destroy the evil Qotile by reactivating the Zorlon Cannon.</p>
+<p>Console: Atari 2600</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="star raiders.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Star Raiders</h3>
+<p class="price">$4.99 <input type="checkbox" id="item6" name="Star_Raiders" value="4.99" onClick="Calculate()"></p>
+<p>Simulated 3D combat, space ships, and Zylon aliens make this a great classic to own.</p>
+<p>Console: Atari 2600</p>
+</td>
+</tr>
+</table>
+
+
+<h2 id="consoles">Consoles</h2>
+<table border="0">
+<tr>
+<td>
+<img src="atari 2600.jpg" height="200" width="250">
+</td>
+<td>
+<h3>Atari 2600</h3>
+<p class="price">$150.00 <input type="checkbox" id="item7" name="Atari_2600" value="150.00" onClick="Calculate()"></p>
+<p>Comes with a controller (joystick) and a game of your choice.</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="atari5200.jpg" height="250" width="250">
+</td>
+<td>
+<h3>Atari 5200</h3>
+<p class="price">$250.00 <input type="checkbox" id="item8" name="Atari_5200" value="250.00" onClick="Calculate()"></p>
+<p>Comes with a controller (joystick).</p>
+</td>
+</tr>
+
+</table>
+
+
+<h2 id="accessories">Accessories</h2>
+<table border="0">
+<tr>
+<td>
+<img src="plug2600.jpg" height="200" width="200">
+</td>
+<td>
+<h3>Atari 2600 Wall Plug</h3>
+<p class="price">$15.00 <input type="checkbox" id="item9" name="Wall_Plug_2600" value="15.00" onClick="Calculate()"></p>
+<p>A power pack for the Atari 2600</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="plug5200.jpg" height="200" width="200">
+</td>
+<td>
+<h3>Atari 5200 Wall Plug</h3>
+<p class="price">$15.00 <input type="checkbox" id="item10" name="Wall_Plug_5200" value="15.00" onClick="Calculate()"></p>
+<p>A power pack for the Atari 5200</p>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<center>
+<input type="submit" value="I'm ready to buy" class="button"> <input type="reset" value="Reset Page" class="button" onClick="setZero()">
+</center>
+</form>
+
+<div class="linkbar">
+<p><a href="home.html">Home</a> | <a href="#top">Back to Top</a> | <a href="order.html">Special Orders</a></p>
+</div>
+
+</body>
+</html>

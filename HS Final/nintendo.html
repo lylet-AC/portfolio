@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd XHTML 1.0 TRANSITIONAL//en"
+"http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title>Nintendo: 8-bit Fire</title>
+
+<link rel="stylesheet" type="text/css" href="salepagestyle.css">
+<script language="javascript">
+
+var sum=0;
+
+function Calculate() {
+sum = 0;
+var itemnum, check;
+for (i=0; i<16; i++) {
+	itemnum = 'item'+i;
+	check = document.getElementById(itemnum);
+	if (check.checked==true) {sum += Number(check.value); }
+}
+
+document.getElementById('totalcost').innerHTML = ("$")+sum.toFixed(2);
+}
+function setZero() {
+sum = 0;
+document.getElementById('totalcost').innerHTML = ("$0.00");
+}
+
+</script>
+
+</head>
+<body>
+
+<!-- Menu Bar Start -->
+<div class="menu-wrap" name="#top">
+<nav class="menu">
+<ul class="clearfix">
+<li><img src="8bit.gif" height="32" width="32"hspace="15"></li>
+<li><img src="logo.png" hspace="10"></li>
+<li><a href="home.html">Home</a></li>
+<li><a href="#">Games For:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#games">Atari</a></li>
+<li><a href="nintendo.html#games">Nintendo</a></li>
+<li><a href="SEGA.html#games">SEGA</a></li>
+<li><a href="PCDOS.html#games">DOS Games</a></li>
+</ul>
+</li>
+<li><a href="#">Consoles:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#consoles">Atari</a></li>
+<li><a href="nintendo.html#consoles">Nintendo</a></li>
+<li><a href="SEGA.html#consoles">SEGA</a></li>
+<li><a href="PCDOS.html#consoles">PC Machines</a></li>
+<li><a href="Arcade Machinces.html">Arcade Style</a></li>
+</ul>
+</li>
+<li><a href="#">Accessories:  <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a href="atari.html#accessories">Atari</a></li>
+<li><a href="nintendo.html#accessories">Nintendo</a></li>
+<li><a href="SEGA.html#accessories">SEGA</a></li>
+<li><a href="PCDOS.html#accessories">PC</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<!-- End Menu Bar -->
+
+<div id="pricebox"><p>Your total:</p><p style="color:green;" id="totalcost">$0.00</p></div>
+
+
+<form method="post" action="mailto:tyspy197@yahoo.com">
+
+<div class="toplogo">
+<center>
+<img src="nintendologo.png" width="" height="">
+</center>
+</div>
+
+<h2 id="games">Games</h2>
+<table border="0">
+<tr>
+<td>
+<img src="balloon.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Balloon Fighter</h3>
+<p class="price">$7.99 <input type="checkbox" id="item0" name="Balloon_Fighter" value="7.99" onClick="Calculate()"></p>
+<p>Play with one or two people. Shoot balloons, enjoy this classic multiplayer!</p>
+<p>Console: NES</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="mariones.jpg" height="180" width="125">
+</td>
+<td>
+<h3>Super Mario Bros.</h3>
+<p class="price">$10.99 <input type="checkbox" id="item1" name="Super_Mario_Bros" value="10.99" onClick="Calculate()"></p>
+<p>You know this game, and even if you don't you've heard how great it is.  No description needed.</p>
+<p>Console: NES</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="kirby.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Kirby Super Star</h3>
+<p class="price">$6.99 <input type="checkbox" id="item2" name="Kirby_Super_Star" value="6.99" onClick="Calculate()"></p>
+<p>Kirby super star; another famous classic by nintendo.  Platformer goodness.</p>
+<p>Console: Super NES</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="kartsnes.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Super Mario Kart</h3>
+<p class="price">$8.99 <input type="checkbox" id="item3" name="Super_Mario_Kart" value="8.99" onClick="Calculate()"></p>
+<p>The first in a long line of great games.  Race against your friends in this action packed go-kart game!</p>
+<p>Console: Super NES</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="mariorpg.png" height="180" width="225">
+</td>
+<td>
+<h3>Mario RPG</h3>
+<p class="price">$5.99 <input type="checkbox" id="item4" name="Mario_RPG" value="5.99" onClick="Calculate()"></p>
+<p>Mario games are always great. RPG games are great, theres no reason this wasn't an instant classic.</p>
+<p>Console: Super NES</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="metriod.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Super Metriod</h3>
+<p class="price">$8.99 <input type="checkbox" id="item5" name="Super_Metriod" value="8.99" onClick="Calculate()"></p>
+<p>Enjoy fighting aliens in this platform shooter.</p>
+<p>Console: Super NES</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="kart.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Mario Kart 64</h3>
+<p class="price">$20.99 <input type="checkbox" id="item6" name="Mario_Kart_64" value="20.99" onClick="Calculate()"></p>
+<p>A rare game, but one of the most popular.  Play as your favorite mario characters in an epic race.</p>
+<p>Console: Nintendo 64</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="mario.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Super Mario 64</h3>
+<p class="price">$15.99 <input type="checkbox" id="item7" name="Super_Mario_64" value="15.99" onClick="Calculate()"></p>
+<p>The first truly 3D renderings of Mario's world.  Relive your childhood now!</p>
+<p>Console: Nintendo 64</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="starfox.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Starfox 64</h3>
+<p class="price">$10.99 <input type="checkbox" id="item8" name="Starfox_64" value="10.99" onClick="Calculate()"></p>
+<p>Space adventure with Starfox. Good buy!</p>
+<p>Console: Nintendo 64</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="zelda.jpg" height="180" width="225">
+</td>
+<td>
+<h3>Legend of Zelda: Ocarina of Time</h3>
+<p class="price">$20.99 <input type="checkbox" id="item9" name="Ocarina_of_Time" value="20.99" onClick="Calculate()"></p>
+<p>Arguably the best Zelda game ever made!  Nostalgia at it's finest!</p>
+<p>Console: Nintendo 64</p>
+</td>
+</tr>
+</table>
+
+
+<h2 id="consoles">Consoles</h2>
+<table border="0">
+<tr>
+<td>
+<img src="NES.jpg" height="180" width="200">
+</td>
+<td>
+<h3>Nintendo Entertainment System (NES)</h3>
+<p class="price">$40.00 <input type="checkbox" id="item10" name="NES" value="40.00" onClick="Calculate()"></p>
+<p>Includes a game and a controller.</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="SNES.jpg" height="150" width="225">
+</td>
+<td>
+<h3>Super NES</h3>
+<p class="price">$45.00 <input type="checkbox" id="item11" name="Super_NES" value="45.00" onClick="Calculate()"></p>
+<p>Includes a game and a controller.</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="N64.jpg" height="200" width="225">
+</td>
+<td>
+<h3>Nintendo 64</h3>
+<p class="price">$60.00 <input type="checkbox" id="item12" name="Nintendo_64" value="60.00" onClick="Calculate()"></p>
+<p>Includes a game and a controller.</p>
+</td>
+</tr>
+
+
+</table>
+
+
+<h2 id="accessories">Accessories</h2>
+<table border="0">
+<tr>
+<td>
+<img src="nes controller.jpg" height="200" width="200">
+</td>
+<td>
+<h3>NES Controller</h3>
+<p class="price">$5.00 <input type="checkbox" id="item13" name="NES_Controller" value="5.00" onClick="Calculate()"></p>
+<p>Includes one controller.</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="snes controller.jpg" height="150" width="200">
+</td>
+<td>
+<h3>SNES Controller</h3>
+<p class="price">$8.00 <input type="checkbox" id="item14" name="SNES_Controller" value="8.00" onClick="Calculate()"></p>
+<p>Includes one controller.</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="n64 controller.jpg" height="200" width="200">
+</td>
+<td>
+<h3>Nintendo 64 Controller</h3>
+<p class="price">$10.00 <input type="checkbox" id="item15" name="Nintendo_64_Controller" value="10.00" onClick="Calculate()"></p>
+<p>Includes one controller.</p>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<center>
+<input type="submit" value="I'm ready to buy" class="button"> <input type="reset" value="Reset Page" class="button" onClick="setZero()">
+</center>
+</form>
+
+<div class="linkbar">
+<p><a href="home.html">Home</a> | <a href="#top">Back to Top</a> | <a href="order.html">Special Orders</a></p>
+</div>
+
+</body>
+</html>
